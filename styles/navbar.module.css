@@ -1,0 +1,23 @@
+.navcontent{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    color: white;
+}
+.navbar{
+    background-color: #9c22ed;
+}
+@media screen and (max-Width:768px){
+    
+    .navbar{
+        width: 1052px;
+    }
+    
+}
+@media screen and (max-Width:1060px){
+    
+    .navbar{
+        width: 1052px;
+    }
+    
+}

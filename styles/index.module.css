@@ -1,0 +1,28 @@
+
+.main{
+    background-color:#230c41 ;
+    margin-top:-16px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    /* width: 100vw; */
+}
+@media screen and (max-Width:768px){
+    .main{
+        background-color:#230c41 ;
+        margin-top:-16px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        width: 778px;
+    }
+    
+}
+
+@media screen and (max-Width:1055px){
+    .main{
+        background-color:#230c41 ;
+        margin-top:-16px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        width: 1055px;
+    }
+}

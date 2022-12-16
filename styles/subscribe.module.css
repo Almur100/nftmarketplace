@@ -1,0 +1,54 @@
+.subdiv{
+    margin-top: 120px;
+}
+.bigdiv{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #39005f;
+    margin-left: 6rem;
+   
+}
+.smalldiv{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.div1{
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.div2{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.left{
+    background-color: #180028;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 43px;
+    padding-left: 1px;
+}
+.left input{
+    background: transparent;
+    outline: none;
+    border: 0;
+    padding: 3px;
+    color: white;
+}
+.right{
+    background-color: #9c22ed;
+    padding: 10px 25px ;
+}
+@media screen and (max-Width:768px){
+    
+    
+    .topleft{
+        font-size: 35px;
+       
+    }
+}
+

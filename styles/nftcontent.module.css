@@ -1,0 +1,121 @@
+.nftdiv{
+    margin-top: 4rem;
+}
+.nftdiv1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 55px;
+    color: white;
+    font-weight: bold;
+}
+.nftdiv2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.nftdiv3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.nftdiv3 div{
+    background-color:#0e0a31 ;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: white;
+}
+.nftdiv4{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 120px;
+    gap:30px;
+}
+
+.headerbottomleft{
+    background-color: #0e0a31;
+    
+    padding-left: 2rem;
+    padding-right: 2rem;
+    box-sizing: border-box;
+    
+    border-radius: 6px;
+    
+}
+.leftcon1{
+    display: flex;
+    justify-content: space-between;
+}
+.con1div1{
+    display: flex;
+    margin-top: 20px;
+    
+}
+.img{
+    border-radius: 50%;
+    margin-right: -6px;
+}
+.imgnft{
+    width: 100%;
+    height: 130%;
+    border-radius: 5px;
+}
+.con1div2 :first-child{
+    color: white;
+    margin-left: 29px;
+}
+.con1div2 :last-child{
+    color: #9c22ed;
+    margin-top: -10px;
+    font-size: 25px;
+}
+.leftcon3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftcon3div1{
+    color: white;
+}
+.eth{
+    display: flex;
+    align-items: center;
+    margin-top: -30px;
+}
+.eth :first-child{
+    color: #9c22ed;
+    font-size: 20px;
+}
+.eth :last-child{
+    color: #9c22ed;
+    font-size: 14px;
+    margin-left: 8px;
+    
+}
+.leftcon3div2{
+    background-color: #931de3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    border-radius: 12px;
+}
+@media screen and (max-Width:768px){
+    .nftdiv4{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+        gap:30px;
+    }
+    .nftdiv1{
+        font-size: 40px;
+    }
+    
+}
