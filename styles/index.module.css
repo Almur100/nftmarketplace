@@ -14,15 +14,19 @@
         padding-right: 2rem;
         width: 778px;
     }
+    .top{
+        width: 778px;
+        background-color: blueviolet;
+    }
     
 }
 
-@media screen and (max-Width:1055px){
+@media screen and (max-Width:1060px){
     .main{
         background-color:#230c41 ;
         margin-top:-16px;
         padding-left: 2rem;
         padding-right: 2rem;
-        width: 1055px;
+        width: 1060px;
     }
 }

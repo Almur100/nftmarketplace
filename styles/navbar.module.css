@@ -6,11 +6,15 @@
 }
 .navbar{
     background-color: #9c22ed;
+    width: 100%;
+   
+    
 }
 @media screen and (max-Width:768px){
     
     .navbar{
-        width: 1052px;
+        width: 768px;
+        padding-right: 64px;
     }
     
 }
@@ -18,6 +22,7 @@
     
     .navbar{
         width: 1052px;
+        padding-right: 66px;
     }
     
 }

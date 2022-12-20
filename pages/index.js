@@ -12,17 +12,17 @@ import Footer from '../components/footer'
 export default function Home() {
   return (
     <>
-    <Navbar/>
+     <Navbar/>
     <div className={styles.main}>
-      <div className={styles.main1}>
       
+   
       <Header/>
       <Nftcontent/>
       <Collection/>
       <Seller/>
       <Subscribe/>
       <Footer/>
-      </div>
+      
       
 
     </div>
